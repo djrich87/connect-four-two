@@ -69,3 +69,8 @@ const winningCombos = [
   [12, 19, 26, 33], 
   [13, 20, 27, 34],
 ]
+
+
+const playerRed = 1
+const playerYellow = -1
+
