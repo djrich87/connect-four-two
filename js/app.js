@@ -73,4 +73,11 @@ const winningCombos = [
 
 const playerRed = 1
 const playerYellow = -1
+let winner, turn, circleArray
+let numOfTurns
 
+
+const gameBoard = document.querySelectorAll(".circle")
+const message = document.getElementById("message")
+const result = document.querySelector("#result")
+const resetBtn = document.getElementById("resetBtn")
