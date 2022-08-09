@@ -121,3 +121,8 @@ null, null, null, null, null, null, null,
   message.textContent = ''
   render()
 }
+
+
+function checkPlacement(idx) {
+  
+}
