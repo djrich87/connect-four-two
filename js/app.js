@@ -81,3 +81,8 @@ const gameBoard = document.querySelectorAll(".circle")
 const message = document.getElementById("message")
 const result = document.querySelector("#result")
 const resetBtn = document.getElementById("resetBtn")
+
+
+gameBoard.forEach(function(circle){
+  circle.addEventListener("click", handleClick)
+})
