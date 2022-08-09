@@ -113,5 +113,11 @@ null, null, null, null, null, null, null,
 null, null, null, null, null, null, null,
 null, null, null, null, null, null, null,
 null, null, null, null, null, null, null,
-  ]
+]
+
+  turn = 1
+  winner = null
+  numOfTurns = 0
+  message.textContent = ''
+  render()
 }
