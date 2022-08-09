@@ -89,13 +89,22 @@ gameBoard.forEach(function(circle){
 
 
 function handleClick(event){
+  let circleIndex = parseInt(event.target.id)
+  const correctIdx = checkPlacement(circleIndex)
 
+    if (circleArray[correctIdx] === null && winner === null){
+    circleArray[correctIdx] = turn
+    turn = turn * -1
+    numOfTurns += 1
+    const turnMsg = turn === 1? 'Red' : 'Yellow'
+    message.textContent = `Turn: ${turnMsg}`
+    }
 }
 
 
 function init() {
   circleArray = [
-    null, null, null, null, null, null, null,
+null, null, null, null, null, null, null,
 null, null, null, null, null, null, null,
 null, null, null, null, null, null, null,
 null, null, null, null, null, null, null,
