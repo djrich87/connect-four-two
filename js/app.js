@@ -89,5 +89,17 @@ gameBoard.forEach(function(circle){
 
 
 function handleClick(event){
-  
+
+}
+
+
+function init() {
+  circleArray = [
+    null, null, null, null, null, null, null,
+null, null, null, null, null, null, null,
+null, null, null, null, null, null, null,
+null, null, null, null, null, null, null,
+null, null, null, null, null, null, null,
+null, null, null, null, null, null, null,
+  ]
 }
