@@ -86,3 +86,8 @@ const resetBtn = document.getElementById("resetBtn")
 gameBoard.forEach(function(circle){
   circle.addEventListener("click", handleClick)
 })
+
+
+function handleClick(event){
+  
+}
