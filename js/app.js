@@ -98,6 +98,9 @@ function handleClick(event){
     numOfTurns += 1
     const turnMsg = turn === 1? 'Red' : 'Yellow'
     message.textContent = `Turn: ${turnMsg}`
+
+    render()
+    getWinner()
     }
 }
 
