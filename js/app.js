@@ -155,3 +155,5 @@ function getWinner(){
 }
 
 resetBtn.addEventListener('click', init)
+
+init()
