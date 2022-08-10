@@ -26,4 +26,11 @@ div {
   border: 5px solid rgb(220, 214, 16);
   background-color: white;
   vertical-align: middle;
+  border-radius: 50%;
+}
+
+section.reset {
+  size: 20px;
+  padding: 10px;
+  margin: 10px;
 }
