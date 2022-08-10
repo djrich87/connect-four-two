@@ -16,4 +16,6 @@ body {
   display: grid;
   grid-template-columns: repeat(7, 10vmin);
   grid-template-rows: repeat(6, 10vmin);
+  gap: 8px 8 px;
+  vertical-align: middle;
 }
