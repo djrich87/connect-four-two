@@ -140,7 +140,9 @@ function getWinner(){
     const d = winningCombos[i][3]
 
       if (circleArray[a] + circleArray[b] + circleArray[c] + circleArray[d] === 4){
-        
+        message.content = 'Red Wins!';
+          winner = 'Red'
+          return('')
       }
   }
 }
