@@ -149,4 +149,8 @@ function getWinner(){
           return(' ')
       }
   }
+      if(numOfTurns === 42 && winner === null){
+        message.textContent = 'The game is a draw!';
+      }
 }
+
