@@ -21,3 +21,8 @@ body {
   border: 5px solid; color: rgb(220, 214, 16); gap: 10px;
   background-color: rgb(12, 89, 43);
 }
+
+div {
+  border: 5px solid rgb(220, 214, 16);
+  background-color: white;
+}
