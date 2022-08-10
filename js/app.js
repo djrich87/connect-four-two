@@ -135,8 +135,8 @@ function getWinner(){
   for(let i = 0; i < winningCombos.length; i++){
 
     const a = winningCombos[i][0]
-    const b = winningCombos[i][0]
-    const c = winningCombos[i][0]
-    const d = winningCombos[i][0]
+    const b = winningCombos[i][1]
+    const c = winningCombos[i][2]
+    const d = winningCombos[i][3]
   }
 }
