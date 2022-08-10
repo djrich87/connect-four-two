@@ -130,3 +130,7 @@ function checkPlacement(idx) {
     }
   }
 }
+
+function getWinner(){
+
+}
