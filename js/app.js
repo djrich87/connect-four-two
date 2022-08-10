@@ -138,5 +138,9 @@ function getWinner(){
     const b = winningCombos[i][1]
     const c = winningCombos[i][2]
     const d = winningCombos[i][3]
+
+      if (circleArray[a] + circleArray[b] + circleArray[c] + circleArray[d] === 4){
+        
+      }
   }
 }
