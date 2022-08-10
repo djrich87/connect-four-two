@@ -25,4 +25,5 @@ body {
 div {
   border: 5px solid rgb(220, 214, 16);
   background-color: white;
+  vertical-align: middle;
 }
