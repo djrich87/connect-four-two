@@ -124,5 +124,9 @@ null, null, null, null, null, null, null,
 
 
 function checkPlacement(idx) {
-  
+  for (let i = idx + 35; i <= 41 && i >=0; i -=7){
+    if (circleArray[i] === null){
+      return i;
+    }
+  }
 }
