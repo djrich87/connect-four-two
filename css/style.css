@@ -34,3 +34,8 @@ section.reset {
   padding: 10px;
   margin: 10px;
 }
+
+button {
+  margin-top: 20px;
+  color: white;
+}
