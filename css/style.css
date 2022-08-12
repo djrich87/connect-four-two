@@ -42,3 +42,7 @@ button {
   font-display: bold;
   background-color: rgb(12, 89, 43);
 }
+
+.button {
+  transition-duration: 0.4s;
+}
