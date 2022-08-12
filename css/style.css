@@ -38,4 +38,7 @@ section.reset {
 button {
   margin-top: 20px;
   color: white;
+  font-size: larger;
+  font-display: bold;
+  background-color: rgb(12, 89, 43);
 }
