@@ -41,6 +41,8 @@ button {
   font-size: larger;
   font-display: bold;
   background-color: rgb(12, 89, 43);
+  size: 50px;
+  border-radius: 8px;
 }
 
 .button {
