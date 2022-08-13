@@ -48,3 +48,8 @@ button {
 .button {
   transition-duration: 0.4s;
 }
+
+.button:hover {
+  background-color: rgb(12, 89, 43);
+  color: white;
+}
