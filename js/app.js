@@ -140,8 +140,8 @@ function getWinner(){
     const d = winningCombos[i][3]
 
       if (circleArray[a] + circleArray[b] + circleArray[c] + circleArray[d] === 4){
-        message.textContent = 'Red Wins!';
-          winner = 'Red'
+        message.textContent = 'Green Wins!';
+          winner = 'Green'
           return('')
       } else if (circleArray[a] + circleArray[b] + circleArray[c] + circleArray[d] === -4){
         message.textContent = 'Yellow Wins!';
@@ -150,7 +150,7 @@ function getWinner(){
       }
   }
       if(numOfTurns === 42 && winner === null){
-        message.textContent = 'The game is a draw!';
+        message.textContent = 'The game is a tie';
       }
 }
 
