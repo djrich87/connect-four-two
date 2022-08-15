@@ -133,6 +133,11 @@ function checkPlacement(idx) {
 
 function render(){
 
+for (let i = 0; i < circleArray.length; i++){
+  if (circleArray[i] === 1){
+    gameBoard[i].style.backgroundColor = "Green"
+  }
+}
 }
 
 function getWinner(){
