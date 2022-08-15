@@ -135,8 +135,11 @@ function render(){
 
 for (let i = 0; i < circleArray.length; i++){
   if (circleArray[i] === 1){
-    gameBoard[i].style.backgroundColor = "Green"
-  }
+    gameBoard[i].style.backgroundColor = 'Green'
+  } else if
+    (circleArray[i] === -1){
+      gameBoard[i].style.backgroundColor = 'Yellow'
+    }
 }
 }
 
