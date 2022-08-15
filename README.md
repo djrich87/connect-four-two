@@ -1,4 +1,4 @@
-# Connect 4
+# Connect Four 2
 [Connect 4 launch](https://danrich-connect-four.surge.sh)
 
 ***
