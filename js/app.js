@@ -96,7 +96,7 @@ function handleClick(event){
     circleArray[correctIdx] = turn
     turn = turn * -1
     numOfTurns += 1
-    const turnMsg = turn === 1? 'Red' : 'Yellow'
+    const turnMsg = turn === 1? 'Green' : 'Yellow'
     message.textContent = `Turn: ${turnMsg}`
 
     render()
@@ -139,8 +139,10 @@ for (let i = 0; i < circleArray.length; i++){
   } else if
     (circleArray[i] === -1){
       gameBoard[i].style.backgroundColor = 'Yellow'
+    } else {
+        gameBoard[i].style.backgroundColor = 'White'
     }
-}
+  }
 }
 
 function getWinner(){
