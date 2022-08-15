@@ -131,6 +131,10 @@ function checkPlacement(idx) {
   }
 }
 
+function render(){
+
+}
+
 function getWinner(){
   for(let i = 0; i < winningCombos.length; i++){
 
